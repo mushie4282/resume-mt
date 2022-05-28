@@ -1,0 +1,28 @@
+/* images */
+img.profilePic{
+    width: 180px;
+    height: 130px;
+    border-radius: 80px;
+    
+}
+img.longoLexus{
+    width: 200px;
+    margin-top: 25px;
+}
+img.schoolLogo{
+    width: 110px;
+    margin-top: 25px;
+}
+img.PCC-logo{
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 35px;
+}
+
+img.schematic{
+    width:100%;
+    height: auto;
+}
+video.demoVideo{
+    width: 100%;
+}

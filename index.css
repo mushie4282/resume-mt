@@ -1,0 +1,132 @@
+/* header and biography */
+.undergrad{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+    border-color:rgb(40, 86, 170);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 75px;
+}
+
+
+/* biography */
+.bio{
+    display:flex;
+    flex: 1;
+}
+
+
+/* general designs */
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+.section{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 45px;
+}
+.date{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+.label,
+.project-title{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 0px;
+    
+}
+
+/* experience section */
+.past-job,
+.college-info,
+.contact-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.column{
+    display:flex;
+    width: 300px;
+}
+.description,
+.bachelor-education,
+.pcc-degrees{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 15px;
+}
+.associate-degrees{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+
+
+/* skill/language section */
+.list-of-skills{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    justify-content:space-evenly;
+}
+.section-title{
+    font-weight:500;
+    font-size: 25px;
+}
+
+/* button */
+.linkedIn-button{
+    display: inline-block;
+    border-radius: 50px;
+    border: 0;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(60, 108, 198);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+.linkedIn-button:hover{
+    opacity: 0.8;
+}
+.linkedIn-button:active{
+    color: rgb(40,86,170);
+    background-color: white;
+}
+
+/* any lists */
+ol{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 25px;
+}
+ul.list{
+    list-style-type: circle;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 35px;
+}
+ul.specifics-listed{
+    list-style-type: disc;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 25px;
+}
