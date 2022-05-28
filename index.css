@@ -51,10 +51,12 @@ img.PCC-logo{
     border-radius: 50px;
     margin-top: 35px;
 }
-img.pcb,
-img.schematic{
+img.pcb{
     width: 100%;
     margin-top: 10px;
+}
+img.schematic{
+    width: 50%;
 }
 
 p{
